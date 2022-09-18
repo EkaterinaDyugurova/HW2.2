@@ -6,8 +6,8 @@ public class Main {
         int balance2 = balance1 + refill;
         int bonus;
         System.out.println(balance2);
-        if (refill >= 1000) {
-            bonus = balance2/100;
+        if (refill > 1000) {
+            bonus = balance2 / 100;
         } else {
             bonus = 0;
         }
